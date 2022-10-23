@@ -1,0 +1,172 @@
+/*images */
+.logo{
+    width: 35%;
+}
+.image_globe{
+    width: 28%;
+}
+.icone_modele{
+    width: 105%;
+}
+
+body{
+    color: #C7CCDB;
+    background-color: #2A324B;
+    font-family: Philosopher;
+}
+h1{
+    color: #C7CCDB;
+    text-align: center;
+    font-size: 400%;  
+    padding: 10%;
+    padding-top: 5%;
+    padding-bottom: 0%;
+}
+h2{
+    text-align: center;
+    padding: 4%;
+    font-size: 150%;
+}
+h3{
+    font-size: 130%;
+    text-align: center;
+    padding-bottom: 10%;
+    padding-inline: 15%;
+}
+ul{
+    list-style-type: none;
+}
+.bouton{
+    padding: 2%;
+	border-radius: 400px;
+    text-align: center;
+    background-color: #A9714B;
+    margin-inline: 20%;
+}
+.bouton:hover{
+    background-color: #805538;
+}
+
+/*header*/
+.menu{
+    display: flex;
+    justify-content: space-around;
+    font-size: 250%;
+    margin-bottom: 2%;
+    margin-inline: 0%;
+	border-radius: 400px;
+    text-align: center;
+    background-color: #A9714B;
+}
+.effet_bouton{
+    padding: 2%;
+}
+.effet_bouton:hover{
+    background-color: #805538;
+}
+
+/*main*/
+.pres{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #C7CCDB;
+}
+.txt_pres{
+    background-color: #2A324B;
+    color: #C7CCDB;
+    text-align: center;
+    margin: 5%;
+    padding: 4%;
+    width: 17%;
+    border-radius: 3em;
+    font-size: 150%;
+}
+.citation{
+    font-size: 150%;
+}
+.produits{
+    display: flex;
+    background-color: #C7CCDB;
+    align-items: baseline stretch;
+
+
+}
+.bloc_produit{
+    color: #C7CCDB;
+    text-align: center;
+    margin: 5%;
+    padding: 2%;
+    border-radius: 3em;
+    background-color: #2A324B;
+    font-size: 150%;
+}
+
+/*footer*/
+.txt_infos{
+    text-align: center;
+    padding-inline: 25%;
+    padding-bottom: 2%;
+}
+.infos{
+    font-size: 120%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2%;
+}
+.copyright{
+    text-align: center;
+}
+
+
+/*responsive*/
+@media screen and (max-width:1024px) {
+    .image_globe{
+        width: 50%;
+        margin-top: 5%;
+    }
+    .icone_modele{
+        width: 40%;
+    }
+    .menu{
+        font-size: 200%;
+    }
+    .pres{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .txt_pres{
+        width: 100%;
+        margin-inline: 20%;
+    }
+
+    .produits{
+        display: flex;
+        flex-wrap: wrap
+    }
+    .bloc_produit{
+        width: 100%;
+        margin-inline: 20%;
+    }
+    .infos{
+        font-size: 80%;
+    }
+}
+
+@media all and (max-device-width:480px) {
+    h1{
+        font-size: 3em;
+    }
+    .menu{
+        font-size: 120%;
+    }
+    .txt_pres{
+        margin-inline: 5%;
+    }
+
+    .bloc_produit{
+        margin-inline: 3%;
+        margin-right: 11%;
+    }
+}
